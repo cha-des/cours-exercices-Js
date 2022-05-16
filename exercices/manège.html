@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="manège.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container flex">
+        <h1>Tours de manège</h1>
+        <section id="ennonce">
+            <h2>Énnoncé</h2>
+            <p>Ecrivez un programme manege.js qui fait faire 10 tours de manège en affichant un message à chaque
+                tour.</p>
+            <p>Ensuite, améliorez votre programme pour que le nombre de tours soit saisi par l'utilisateur.</p>
+            <p>Testez avec des compteurs initialisés à d'autres valeurs que Zéro dans vos codes.</p>
+        </section>
+
+        <section id="exercice">
+            <h2>Exercice</h2>
+            <div id="dixTours"></div>
+            <p class="tourNumero"> Combien de tours voulez-vous ?</p>
+            <input type="number" id="saisieUtilisateur">
+            <div id="button">
+                <input type="button" value="C'est parti" onclick="manege()">
+            </div>
+            <p id="resultat"></p>
+        </section>
+
+    </div>
+    <script src="manège.js"></script>
+
+</body>
+
+</html>

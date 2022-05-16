@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenements js</title>
+    <link rel="stylesheet" href="evenement.css">
+
+</head>
+
+<body>
+    <div class="conteneur">
+
+        <a href="" onclick="window.print()">Imprimer la page</a>
+
+        <hr>
+
+        <div class="div" id="div1" style="background-color: cornflowerblue;"></div>
+
+        <hr>
+
+        <div class="div" id="div2" style="background-color: Indigo; top: 0; left: 0"></div>
+
+        <hr>
+
+        <div id="blocImage1">
+            <img src="img/IMG_4217.JPG" alt="câlin 1">
+            <img src="img/IMG_4636.JPG" alt="câlin 2">
+        </div>
+
+        <hr>
+
+        <div id="blocImage2" data-image="image1"> <!-- data- est un attribut de donnée, ensuite je lui donne un nom-->
+            <!-- La syntaxe est simple. Tout attribut d'un élément dont le nom commence par data- est un attribut de données (data attribute). Si par exemple vous avez un article pour lequel vous souhaitez stocker des infos supp et qui n'ont pas de représenatations visuelle, il vous suffit d'utiliser des attributs de données (permet de stocker des données dans le html)-->
+
+            <img src="img/IMG_0516.JPG" id="image1" alt="une image de paysage" style="opacity: 1;"> <!-- Le style dans le html est plus fort donc écrase ce qu'il y a dans le css ce qui permet de garder visible cette image. En js à chaque clic sur le bouton le style dans le html se déplace d'une image à l'autre-->
+            <img src="img/IMG_4217.JPG" id="image2" alt="une image de paysage">
+            <img src="img/IMG_4218.JPG" id="image3" alt="une image de paysage">
+            <img src="img/IMG_4220.JPG" id="image4" alt="une image de paysage">
+            <img src="img/IMG_4636.JPG" id="image5" alt="une image de paysage">
+        </div>
+        <a href="" id="changerImage">Changer d'image</a> <!-- Bouton -->
+
+        <hr>
+
+
+    </div>
+
+    <script src="evenement.js"></script>
+</body>
+
+</html>

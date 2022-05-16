@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    background-color: #bad688;
+    height: 130vh
+}
+
+h1{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #432CDB;
+    text-align: center;
+}
+
+h2{
+    color: #432CDB;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.text-ennonce{
+    padding-left: 60px;
+}
+
+ #exercice{
+    width: 70%;
+    border: solid #24F2D3 2px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ennonce{
+    width: 70%;
+    border: solid #24F2D3 2px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button{
+    border: solid #432CDB 1px;
+    background-color: #bad688;   
+}

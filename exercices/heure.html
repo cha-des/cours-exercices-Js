@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="heures.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Heure suivante</h1>
+
+        <section id="ennonce">
+
+            <h2>Énnoncé</h2>
+
+            <div class="text-ennonce">
+                <p>Ecrivez un programme qui demande une heure à un utilisateur sous la forme de trois informations
+                    (heures,
+                    minutes, secondes).</p>
+                <p>Il affiche ensuite l'heure qu'il sera une seconde plus tard.</p>
+                <p>Les erreurs de saisie doivent être gérées.</p><br>
+                <ul>Ce programme est moins simple qu'il en a l'air : 
+
+                    <li>14h17m59s => 14h18m0s</li>
+                    <li>6h59m59s => 7h0m0s</li>
+                    <li>23h59m59s => 0h0m0s (minuit)</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="exercice">
+
+            <h2>Exercice</h2>
+
+            <p class="text-exercice">Entrez les heures</p>
+            <input class="button" type="number" id="heures"><br>
+
+            <p class="text-exercice">Entrez les minutes</p>
+            <input class="button" type="number" id="minutes"><br>
+
+            <p class="text-exercice">Entrez les secondes</p>
+            <input class="button" type="number" id="secondes"><br>
+
+            <div id="button">
+                <input class="button" type="button" value="C'est parti" onclick="heureSuivante()">
+            </div><br>
+
+            <p id="resultat"></p>
+
+        </section>
+
+    </div>
+
+    <script src="heure.js"></script>
+</body>
+
+</html>

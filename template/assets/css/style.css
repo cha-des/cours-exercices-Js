@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    height : 50vh;
+    background-color: lightgrey;
+}
+
+.block-grande-image{
+    position: relative;
+    align-items: stretch; /* prends toute la place*/
+    display: flex;
+}
+
+#legende{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0, .7);
+    color: white;
+    font-style: italic;
+    font-size: 21px;
+    width: calc(100% - 24px);
+    padding: 15px;
+}
+
+#back-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background-color: rgba(56, 55, 55, 0.6);
+    width: 50px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    border-radius: 5%;
+    display: none; /* Par défaut je ne veux pas que la flèche apparaisse */
+    text-align: center;
+}

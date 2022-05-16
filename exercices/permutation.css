@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornflowerblue;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.text-ennonce{
+    margin-top: 20px;
+    padding: 2rem;
+    margin-bottom: 20px;
+}
+
+.astuce{
+    background-color: rgb(248, 206, 191);
+    padding: 2rem;
+}
+
+.flex{
+    display: flex;
+}
+
+#ennonce{
+    background-color: coral;
+    color: black;
+    margin-bottom: 80px;
+    border: solid white 2px;
+}
+
+#exercice{
+    background-color: coral;
+    padding-top: 50px;
+    border: solid white 2px;
+}
+
+#result{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration: underline solid white;
+    text-underline-offset: 5px;
+}

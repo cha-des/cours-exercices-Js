@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tva.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calcul de TVA</h1>
+
+        <section id="ennonce">
+            <h2>Ennoncé</h2>
+            <p class="text-ennonce">Ecrivez un tva.js qui fait saisir un prix hors taxes à l'utilisateur, puis qui affiche le prix TTC
+                correspondant en se basant sur un taux de TVA à 20%.</p>
+        </section>
+
+        <section id="exercice">
+
+            <h2>Exercice</h2>
+            <p class="text-exercice">Entrez un montant hors taxe</p>
+
+            <input type="number" id="montantHT">
+            <div id="button">
+                <input type="button" value="C'est parti" onclick="tva()">
+            </div>
+            <p id="resultat">Montant TTC</p>
+
+        </section>
+    </div>
+
+    <script src="tva.js"></script>
+</body>
+
+</html>

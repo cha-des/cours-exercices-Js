@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.container{
+    background-color: rgb(8, 94, 97);   
+    height: 100vh;
+}
+
+.text-exercice{
+    text-align: center;
+}
+
+#ennonce, #article, #exercice{
+    width: 60%;
+    border: solid coral 1.5px;
+    padding: 10px;
+    background: linear-gradient(cadetblue, rgb(86, 207, 211));
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#degreCelsius, #button{
+    display: flex;
+    margin-top: 20px;
+}
+
+#resultat{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
